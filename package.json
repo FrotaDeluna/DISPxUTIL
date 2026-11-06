@@ -1,0 +1,14 @@
+{
+  "name": "fleet-intelligence-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dashboard gerencial de disponibilidade e capacidade de utilização da frota.",
+  "scripts": {
+    "build:data": "node scripts/build_public_data.cjs",
+    "build": "npm run build:data",
+    "test": "node scripts/test_core.cjs"
+  },
+  "dependencies": {
+    "xlsx": "0.18.5"
+  }
+}
